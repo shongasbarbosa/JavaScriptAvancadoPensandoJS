@@ -1,0 +1,26 @@
+Aula sobre paradigmas e funções
+
+- Paradigmas é o modelo mental que usarei como guia;
+-- é o padrão a seguir;
+-- o escopo do projeto;
+-- observar o mundo como um objeto;
+
+Exemplos de paradigmas:
+- Programação Funcional;
+-- Não trabalha com dados mutáveis;
+-- Usa mais memória no processamento;
+-- Facilita na implementação de códigos paralelos;
+-- Funções são valores, uma variável pode receber uma função,
+conhecida como function express em JavaScript;
+
+- Programação Procedural;
+-- Os Procedimentos, também conhecidos como rotinas,
+subrotinas, métodos, ou funções (que não devem ser
+confundidas com funções matemáticas;
+-- Não há tantos princípios a serem levados em conta;
+
+- Programação Orientada ao Objeto;
+-- Exige o melhor entendimento dos princípios e paradigmas
+da linguagem; Ex.: Encapsulamento, herança, polimofirmos,
+composição...;
+
