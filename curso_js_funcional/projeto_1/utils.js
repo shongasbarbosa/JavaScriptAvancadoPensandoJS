@@ -6,9 +6,8 @@ const path = require('path')
 const lerDiretorio = (caminho) => {
     return new Promise((resolve, reject) => {
         try {
-            const arquivos = fs.readdirSync(caminho)
-            const arquivosCompletos = arquivos.map(arquivo => path.join(caminho, arquivo))
-            resolve(arquivosCompletos)
+            const arquivos = fs.readdirSync(caminho).map(arquivo => path.join(caminho, arquivo))
+            resolve(arquivos)
         } catch (error) {
             reject(error)
         }
